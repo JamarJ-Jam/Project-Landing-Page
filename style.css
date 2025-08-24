@@ -8,8 +8,24 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top-section{
+    background: #1f2937;
+}
+
+h1 {
+   font-size: 48px;
+   font-weight: 900;
+   color: #f9faf8;
+}
 ul {
     display: flex;
     list-style: none;
@@ -19,4 +35,6 @@ ul {
 
 .links {
     gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
