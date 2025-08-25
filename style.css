@@ -123,7 +123,25 @@ h2 {
 
 .section3 {
     background: #e5e7eb;
-    color: #1f2937;
+    color: #35383b;
     font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.quote {
     font-style: italic;
+    text-wrap: wrap;
+    width: 800px;
+    height: 200px;
+}
+
+.author {
+    font-size: 24px;
+    margin-right: 300px;
+    margin-left: auto;
 }
