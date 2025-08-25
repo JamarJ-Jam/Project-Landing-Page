@@ -88,6 +88,35 @@ h2 {
     font-weight: 900;
 }
 
-.box1 {
+.illustration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.box1, .box2, .box3, .box4 {
     border: 4px solid #3882f6;
+    color: #ffffff;
+    background: #ffffff;
+    width: 150px;
+    height: 150px;
+}
+
+.first, .second, .third, .fourth {
+    flex-wrap: wrap;
+    text-align: center;
+    color: #616163;
+    font-weight: 500;
+    width: 150px;
+    height: 75px;
+}
+
+.pair1, .pair2, .pair3, .pair4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
